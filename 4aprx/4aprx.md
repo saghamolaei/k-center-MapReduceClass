@@ -1,0 +1,1 @@
+The 4-approximation algorithm in MapReduce class (MRC) that runs Gonzalez's greedy k-center (also known as the greedy farthest point algorithm) twice: first on each set, then on the union of the centers from the sets.
