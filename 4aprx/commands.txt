@@ -1,0 +1,6 @@
+cut -d ',' -f1-7 <HIGGS.csv >higgs.txt
+tr ',' '\t' <higgs.txt >higgs.in
+wc -l higgs.in
+split -d -l 10000 higgs.in higgs_chunks/
+ls higgs_chunks/|wc -w
+
