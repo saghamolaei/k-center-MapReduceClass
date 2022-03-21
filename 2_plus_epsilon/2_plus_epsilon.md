@@ -1,0 +1,1 @@
+A (2+ɛ)-approximation k-center in MapReduce class that uses the 4-approximation MapReduce algorithm as a preprocessing step to find an interval for r, and then uses parametric pruning on the smaller range.
